@@ -1,0 +1,14 @@
+{
+    "name": "com.bennykok.pie",
+    "displayName": "Pie",
+    "version": "0.1.0",
+    "description": "Pie Pie Pie",
+    "unity": "2019.4",
+    "dependencies": {
+        
+    },
+    "author": {
+        "name": "BennyKok",
+        "url": "https://github.com/BennyKok"
+    }
+}
