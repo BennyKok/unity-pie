@@ -17,6 +17,23 @@ To try out the feel of the pie menu in unity you can try the probuilder pie inte
 UPM install via git url -> https://github.com/BennyKok/unity-pie-probuilder.git
 ```
 
+## API Examples
+Just like Unity's MenuItemAttribute, instead you use PieMenu!!!
+
+```
+[PieMenu(path = "Selection/Object")]
+public static void ObjectMode()
+{
+    ProBuilderEditor.selectMode = SelectMode.Object;
+}
+
+[PieMenu(path = "New PolyShape")]
+public static void PolyShape()
+{
+    EditorApplication.ExecuteMenuItem("Tools/ProBuilder/Editors/New Poly Shape");
+}
+```
+
 ## Explore
 Feel free to check me out!! :)
 

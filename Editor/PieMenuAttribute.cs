@@ -12,5 +12,10 @@ namespace BennyKok.Pie.Editor
     public class PieMenuAttribute : Attribute
     {
         public string path;
+        public PieMenuAttribute() { }
+        public PieMenuAttribute(string path)
+        {
+            this.path = path;
+        }
     }
 }
