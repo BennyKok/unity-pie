@@ -1,6 +1,6 @@
 # unity-pie
 
-This pacakge has is an experimental pie menu for Unity
+This pacakge is an experimental pie menu for Unity
 
 ### A
 ## Press A for the Pie
